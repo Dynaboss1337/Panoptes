@@ -12,7 +12,7 @@ Click the Code button (green) and select Download ZIP.
 Save the Panoptes-master.zip file to your computer (e.g., Downloads folder) and extract it (right-click > Extract All on Windows, or double-click and drag on macOS).
 
 # Load the Extension in Brave:
-Loading your XAccountFlagger extension on any Chromium-based browser (e.g., Brave, Google Chrome, Microsoft Edge, Opera) is a straightforward process since they all support the same extension framework (Manifest V3). This aligns with your goal of sharing an extension similar to Shinigami Eyes for flagging X users across multiple platforms. Below are the step-by-step instructions to load it as an unpacked extension, which works for development or personal use. Note that for public distribution, uploading to the Chrome Web Store is required (as discussed earlier), but this method is for manual testing or local use.
+Loading your Panoptes extension on any Chromium-based browser (e.g., Brave, Google Chrome, Microsoft Edge, Opera) is a straightforward process since they all support the same extension framework. Below are the step-by-step instructions to load it as an unpacked extension, which works for development or personal use.
 
 Open the Browser:
 Launch the Chromium-based browser you want to use (e.g., Chrome, Edge, Brave, Opera).
