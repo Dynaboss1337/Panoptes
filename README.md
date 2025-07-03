@@ -12,9 +12,22 @@ Click the Code button (green) and select Download ZIP.
 Save the Panoptes-master.zip file to your computer (e.g., Downloads folder) and extract it (right-click > Extract All on Windows, or double-click and drag on macOS).
 
 # Load the Extension in Brave:
-Open Brave browser.
-Go to brave://extensions/ in the address bar.
-Enable Developer mode (toggle in the top-right corner).
-Click Load unpacked.
-Navigate to the extracted folder (e.g., Downloads\XAccountFlagger-master) and select it.
-The extension (X Account Flagger) should appear in the list.
+Loading your XAccountFlagger extension on any Chromium-based browser (e.g., Brave, Google Chrome, Microsoft Edge, Opera) is a straightforward process since they all support the same extension framework (Manifest V3). This aligns with your goal of sharing an extension similar to Shinigami Eyes for flagging X users across multiple platforms. Below are the step-by-step instructions to load it as an unpacked extension, which works for development or personal use. Note that for public distribution, uploading to the Chrome Web Store is required (as discussed earlier), but this method is for manual testing or local use.
+
+Open the Browser:
+Launch the Chromium-based browser you want to use (e.g., Chrome, Edge, Brave, Opera).
+Access the Extensions Page:
+Type the following in the address bar and press Enter:
+Chrome: chrome://extensions/
+Brave: brave://extensions/
+Edge: edge://extensions/
+Opera: opera://extensions/
+The exact URL varies slightly, but all use a ://extensions/ format.
+Enable Developer Mode:
+In the top-right corner of the extensions page, toggle the Developer mode switch to On. This enables loading unpacked extensions.
+Load the Unpacked Extension:
+Click the Load unpacked button (appears after enabling Developer mode).
+In the file explorer dialog, navigate to C:\downloads\Panoptes.
+Select the folder and click Select Folder (Windows) or Open (macOS/Linux).
+Confirm Loading:
+The extension should appear in the list with its name, version, and description.
