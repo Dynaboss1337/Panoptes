@@ -16,5 +16,9 @@
             "js": [ "accounts.js", "content.js" ],
             "css": [ "styles.css" ]
         }
-    ]
+    ],
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
 }
