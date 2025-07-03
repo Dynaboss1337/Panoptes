@@ -32,7 +32,22 @@ Enable Developer Mode:
 In the top-right corner of the extensions page, toggle the Developer mode switch to On. This enables loading unpacked extensions.
 Load the Unpacked Extension:
 Click the Load unpacked button (appears after enabling Developer mode).
-In the file explorer dialog, navigate to C:\downloads\Panoptes.
+In the file explorer dialog, navigate to C:\downloads\panoptes-master.
 Select the folder and click Select Folder (Windows) or Open (macOS/Linux).
 Confirm Loading:
 The extension should appear in the list with its name, version, and description.
+
+
+# INSTALLATION (FIREFOX)
+For Firefox Users (Temporary Installation)
+Open Firefox browser.
+Type about:debugging#/runtime/this-firefox in the address bar and press Enter.
+Click the Load Temporary Add-on button.
+Navigate to the extracted folder (e.g., downloads\panoptes-master) and select any file (e.g., manifest.json).
+The extension should appear under "Temporary Extensions."
+Test the Extension:
+Visit x.com and check if listed users (e.g., @GodKneels6Trump) are highlighted in their assigned colors with category tooltips.
+Note: This is a temporary installation and will be removed when Firefox restarts unless reloaded.
+Notes
+Editing Accounts: Modify accounts.js to add or remove usernames under each category.
+Permanent Installation: For a permanent version, this extension will be available on the Firefox Add-ons site after review. Check back for updates!
