@@ -18,10 +18,15 @@ Open the Browser:
 Launch the Chromium-based browser you want to use (e.g., Chrome, Edge, Brave, Opera).
 Access the Extensions Page:
 Type the following in the address bar and press Enter:
+
 Chrome: chrome://extensions/
+
 Brave: brave://extensions/
+
 Edge: edge://extensions/
+
 Opera: opera://extensions/
+
 The exact URL varies slightly, but all use a ://extensions/ format.
 Enable Developer Mode:
 In the top-right corner of the extensions page, toggle the Developer mode switch to On. This enables loading unpacked extensions.
