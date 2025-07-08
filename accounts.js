@@ -3,7 +3,7 @@ const accountList = [
     {
         category: "BNWO Account",
         color: "red",
-        usernames: ["gooneroomph", "weirdirmemes", "blackandbrownc1",]
+        usernames: ["gooneroomph", "weirdirmemes", "blackandbrownc1", "lcblacked"]
     },
     {
         category: "Fake Right Winger, BNWO Pusher",
