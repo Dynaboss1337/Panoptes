@@ -13,11 +13,11 @@ const accountList = [
     {
         category: "Ally",
         color: "green",
-        usernames: ["mymycanzoo", "godkneels6trump", "alonelyvessel"]
+        usernames: ["godkneels6trump", "alonelyvessel"]
     },
     {
         category: "Ally + Founder",
         color: "dark green",
-        usernames: ["mymycanzoo", "godkneels6trump", "alonelyvessel"]
+        usernames: ["mymycanzoo"]
     }
 ];
