@@ -16,7 +16,7 @@ const accountList = [
         usernames: ["godkneels6trump", "alonelyvessel"]
     },
     {
-        category: "Ally + Founder",
+        category: "Founder",
         color: "blue",
         usernames: ["mymycanzoo"]
     }
