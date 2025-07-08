@@ -7,12 +7,17 @@ const accountList = [
     },
     {
         category: "Fake Right Winger, BNWO Pusher",
-        color: "orange",
+        color: "yellow",
         usernames: ["whiterealman", "glasgowwn", "letuqe72741", "purityborea", "noeyjordison", "shygermanwboy", ""]
     },  
     {
         category: "Ally",
         color: "green",
+        usernames: ["mymycanzoo", "godkneels6trump", "alonelyvessel"]
+    }    
+    {
+        category: "Ally + Founder",
+        color: "dark green",
         usernames: ["mymycanzoo", "godkneels6trump", "alonelyvessel"]
     }
 ];
