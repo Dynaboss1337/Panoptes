@@ -19,5 +19,5 @@ const accountList = [
         category: "Founder",
         color: "blue",
         usernames: ["mymycanzoo"]
-    }
+    },
 ];
