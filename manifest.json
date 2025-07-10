@@ -1,4 +1,5 @@
- "manifest_version": 3,
+{
+       "manifest_version": 3,
        "name": "Panoptes",
        "version": "0.2",
        "description": "Highlights subversive accounts on X.",
@@ -18,5 +19,4 @@
          "48": "icon48.png",
          "128": "icon128.png"
        }
-     },
-]
+     }
