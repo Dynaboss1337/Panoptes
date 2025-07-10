@@ -3,8 +3,8 @@
        "name": "Panoptes",
        "version": "0.2",
        "description": "Highlights subversive accounts on X.",
-       "permissions": ["activeTab", "storage", "https://dynaboss1337.github.io/Panoptes/*"],
-       "host_permissions": ["https://x.com/*", "https://twitter.com/*"],
+       "permissions": ["activeTab", "storage"],
+       "host_permissions": ["https://x.com/*", "https://twitter.com/*", "https://dynaboss1337.github.io/Panoptes/*"],
        "content_scripts": [
          {
            "matches": ["https://x.com/*", "https://twitter.com/*"],
