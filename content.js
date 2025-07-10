@@ -47,7 +47,7 @@ function highlightAccounts(accounts) {
     // Run forceUpdate() in the console
     function forceUpdate() {
     chrome.runtime.sendMessage({type: "updateNow"}, (response) => console.log("Update response:", response));
-    });
+    };
 
 
      // Handle dynamic content
