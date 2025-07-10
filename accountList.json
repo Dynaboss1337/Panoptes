@@ -1,17 +1,60 @@
 [
-  {
-    "category": "BNWO Account",
-    "color": "red",
-    "usernames": ["gooneroomph", "weirdirmemes", "blackandbrownc1", "lcblacked", "gunnar_emma", "7evenblacked", "iceycryo", "shxandxsnff", "snuffwhiteboi", "rubyrose126918", "innocentwn", "veronika94917", "icespi3300", "batardmnwo_bnwo", "stratalekla", "manlywhitebois", "ytchocolatewn", "pliablebeta", "goonboi296903", "lostdecision", "crybabysade", "Ellyvancesucks", "plapplapballs", "throwaways22", "thr0waws22", "itsmilkyway", "goonetteeggs"]
-  },
-  {
-    "category": "Fake Right Winger, BNWO Pusher",
-    "color": "yellow",
-    "usernames": ["whiterealman", "glasgowwn", "letuqe72741", "purityborea", "noeyjordison", "shygermanwboy", "bnwog29903", "whitwnation", "aryanboyfaq", "copperspoon8164"]
-  },  
-  {
-    "category": "Ally",
-    "color": "green",
-    "usernames": ["godkneels6trump", "alonelyvessel", "mymycanzoo"]
-  },
+    {
+        "category": "BNWO Account",
+        "color": "red",
+        "usernames": [
+            "gooneroomph",
+            "weirdirmemes",
+            "blackandbrownc1",
+            "lcblacked",
+            "gunnar_emma",
+            "7evenblacked",
+            "iceycryo",
+            "shxandxsnff",
+            "snuffwhiteboi",
+            "rubyrose126918",
+            "innocentwn",
+            "veronika94917",
+            "icespi3300",
+            "batardmnwo_bnwo",
+            "stratalekla",
+            "manlywhitebois",
+            "ytchocolatewn",
+            "pliablebeta",
+            "goonboi296903",
+            "lostdecision",
+            "crybabysade",
+            "Ellyvancesucks",
+            "plapplapballs",
+            "throwaways22",
+            "thr0waws22",
+            "itsmilkyway",
+            "goonetteeggs"
+        ]
+    },
+    {
+        "category": "Fake Right Winger, BNWO Pusher",
+        "color": "yellow",
+        "usernames": [
+            "whiterealman",
+            "glasgowwn",
+            "letuqe72741",
+            "purityborea",
+            "noeyjordison",
+            "shygermanwboy",
+            "bnwog29903",
+            "whitwnation",
+            "aryanboyfaq",
+            "copperspoon8164"
+        ]
+    },
+    {
+        "category": "Ally",
+        "color": "green",
+        "usernames": [
+            "godkneels6trump",
+            "alonelyvessel",
+            "mymycanzoo"
+        ]
+    }
 ]
