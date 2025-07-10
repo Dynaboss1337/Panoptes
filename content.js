@@ -44,6 +44,12 @@ function highlightAccounts(accounts) {
     console.log("Manual update response:", response);
     });
 
+    // Run forceUpdate() in the console
+    function forceUpdate() {
+    chrome.runtime.sendMessage({type: "updateNow"}, (response) => console.log("Update response:", response));
+    });
+
+
      // Handle dynamic content
      const observer = new MutationObserver(() => {
        chrome.storage.local.get(['accountList'], (result) => {
