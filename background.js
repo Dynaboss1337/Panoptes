@@ -34,8 +34,7 @@ function fetchAccounts() {
         })
         .catch(error => {
             console.error("Fetch error:", error.message);
-        });
-}
+});
 
 // Listen for manual update request
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
