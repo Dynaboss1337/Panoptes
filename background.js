@@ -1,5 +1,6 @@
 chrome.runtime.onInstalled.addListener(() => {
        console.log("Extension installed, fetching accounts...");
+       console.log("Background script loaded");
        fetchAndUpdateAccounts();
      });
 
