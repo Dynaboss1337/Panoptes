@@ -14,7 +14,7 @@ chrome.runtime.onInstalled.addListener(() => {
 
      function fetchAndUpdateAccounts() {
        console.log("Fetching accountList.json...");
-       fetch('https://raw.githubusercontent.com/dynaboss1337/Panoptes/main/accountList.json')
+       fetch('https://dynaboss1337.github.io/Panoptes/accountList.json')
          .then(response => {
            console.log("Response received, status:", response.status);
            if (!response.ok) throw new Error("HTTP error " + response.status);
