@@ -39,6 +39,11 @@ function highlightAccounts(accounts) {
        }
      });
 
+     //Trigger manual update on script load (for testing)
+    chrome.runtime.sendMessage({ type: "updateNow" }, (response) => {
+    console.log("Manual update response:", response);
+    });
+
      // Handle dynamic content
      const observer = new MutationObserver(() => {
        chrome.storage.local.get(['accountList'], (result) => {

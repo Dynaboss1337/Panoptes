@@ -1,7 +1,7 @@
 [
   {
-    "category": "Ally",
-    "color": "green",
-    "usernames": ["godkneels6trump", "alonelyvessel", "mymycanzoo"]
+    "category": "Test Category",
+    "color": "blue",
+    "usernames": ["godkneels6trump"]
   }
 ]
