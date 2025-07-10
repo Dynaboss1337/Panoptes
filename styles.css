@@ -1,0 +1,5 @@
+span[style*="background-color"] {
+       display: inline-block;
+       margin: 2px;
+       font-weight: bold;
+     }
