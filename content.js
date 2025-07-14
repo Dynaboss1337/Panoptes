@@ -15,7 +15,7 @@ function highlightAccounts(accounts) {
         element.title = `Category: ${account.category}`;
 
         // Apply blackout and mute only for specific categories
-        const blackoutCategories = ["BNWO account", "Fake Right Winger, BNWO shill"];
+        const blackoutCategories = ["BNWO account", "Fake Right Winger, BNWO Pusher"];
         if (blackoutCategories.includes(account.category)) {
           // Blackout profile picture
           const profilePic = element.closest('article')?.querySelector('img.avatar');
