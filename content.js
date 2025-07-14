@@ -15,23 +15,31 @@ function highlightAccounts(accounts) {
         element.title = `Category: ${account.category}`;
 
         // Apply blackout and mute only for specific categories
-        const blackoutCategories = ["BNWO Account", "Fake Right Winger, BNWO Pusher"];
+        const blackoutCategories = ["BNWO account", "Fake Right Winger, BNWO shill"];
         if (blackoutCategories.includes(account.category)) {
           // Blackout profile picture
-          const profilePic = element.closest('article')?.querySelector('img.avatar');
-          if (profilePic) profilePic.style.setProperty('filter', 'brightness(0)', 'important');
+          const profileContainer = element.closest('div[role="main"]')?.querySelector('img.avatar');
+          if (profileContainer) {
+            profileContainer.style.setProperty('filter', 'brightness(0)', 'important');
+            profileContainer.setAttribute('inert', '');
+          }
 
           // Blackout banner
-          const banner = element.closest('article')?.querySelector('[data-testid="UserProfileHeader_Container"] img');
-          if (banner) banner.style.setProperty('filter', 'brightness(0)', 'important');
+          const bannerContainer = element.closest('div[data-testid="UserProfileHeader_Container"]')?.querySelector('img');
+          if (bannerContainer) {
+            bannerContainer.style.setProperty('filter', 'brightness(0)', 'important');
+            bannerContainer.setAttribute('inert', '');
+          }
 
           // Blackout post images/videos
-          const mediaElements = element.closest('article')?.querySelectorAll('img, video');
-          mediaElements.forEach(media => {
+          const mediaContainers = element.closest('article')?.querySelectorAll('div[data-testid="tweetPhoto"] img, div[data-testid="videoPlayer"] video');
+          mediaContainers.forEach(media => {
             media.style.setProperty('filter', 'brightness(0)', 'important');
+            media.setAttribute('inert', '');
             if (media.tagName === 'VIDEO') {
-              media.muted = true; // Mute video
-              media.pause(); // Optional: Pause video to prevent playback
+              media.muted = true;
+              media.pause();
+              console.log("Muting video:", media); // Debug log
             }
           });
 
@@ -40,12 +48,14 @@ function highlightAccounts(accounts) {
           retweetArticles.forEach(article => {
             const retweetUsername = article.querySelector('a[href*="/status/"] span.css-1jxf684')?.textContent?.replace(/^@/, '').toLowerCase();
             if (retweetUsername && account.usernames.some(u => u.toLowerCase() === retweetUsername)) {
-              const retweetMedia = article.querySelectorAll('img, video');
+              const retweetMedia = article.querySelectorAll('div[data-testid="tweetPhoto"] img, div[data-testid="videoPlayer"] video');
               retweetMedia.forEach(media => {
                 media.style.setProperty('filter', 'brightness(0)', 'important');
+                media.setAttribute('inert', '');
                 if (media.tagName === 'VIDEO') {
                   media.muted = true;
                   media.pause();
+                  console.log("Muting retweet video:", media); // Debug log
                 }
               });
             }
